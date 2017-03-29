@@ -1,0 +1,40 @@
+body{
+	background-image: url("../images/backgroundHome.png");
+	-moz-background-size:cover;
+	-webkit-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+	background-repeat: no-repeat;
+}
+
+.btn{
+	height: 60px;
+	margin-top: 20px;
+}
+.welcome{
+	color: #33031B;
+	text-shadow: 0.1em 0.1em 0.2em #333;
+	font-weight: bold;
+	font-size: 60px;
+	font-family: Microsoft JhengHei;
+}
+
+@media screen and (max-width: 980px){
+	body{
+		background-image: url("../images/backgroundHome2.png");
+		-moz-background-size:cover;
+		-webkit-background-size:cover;
+		-o-background-size:cover;
+		background-size:cover;
+		background-repeat: no-repeat;
+	}
+	
+	loginname::after{
+		content: "\A";
+		white-space: pre;
+	}
+
+	.welcome{
+		font-size: 40px;
+	}
+}

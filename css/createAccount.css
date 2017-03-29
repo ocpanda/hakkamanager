@@ -1,0 +1,51 @@
+body{
+	background-image: url("../images/backgroundHome.png");
+	-moz-background-size:cover;
+	-webkit-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+	background-repeat: no-repeat;
+}
+
+/*#titleImg{
+	background-image: url("../images/title.png");
+	background-repeat:no-repeat;
+	width: 960px;
+	height: 200px;
+}*/
+
+.welcome{
+	/*color: #8a4616;*/
+	color: #33031B;
+	text-shadow: 0.1em 0.1em 0.2em #333;
+	font-weight: bold;
+	font-size: 90px;
+	font-family: Microsoft JhengHei;
+}
+
+@media screen and (max-width: 980px){
+	body{
+		background-image: url("../images/backgroundHome2.png");
+		-moz-background-size:cover;
+		-webkit-background-size:cover;
+		-o-background-size:cover;
+		background-size:cover;
+		background-repeat: no-repeat;
+	}
+
+	loginname::after{
+		content: "\A";
+		white-space: pre;
+	}
+
+	.welcome{
+		font-size: 40px;
+	}
+/*
+	#titleImg{
+		background-image: url("../images/title2.png");
+		background-repeat:no-repeat;
+		width: 480px;
+		height: 200px;
+	}*/
+}
